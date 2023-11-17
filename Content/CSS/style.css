@@ -1,0 +1,21 @@
+/* style.css */
+
+body {
+    padding-top: 56px; /* Fix for fixed navbar */
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .search-box {
+    margin-right: 20px;
+  }
+  
+  .cart-icon {
+    margin-left: 20px;
+  }
+  
