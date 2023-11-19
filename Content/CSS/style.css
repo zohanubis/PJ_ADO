@@ -1,9 +1,8 @@
-/* style.css */
 
 body {
   padding-top: 56px;
 }
-
+/*-------------Navigation-----*/
 .navbar {
   position: fixed;
   top: 0;
@@ -11,8 +10,33 @@ body {
 }
 
 .search-box {
-  margin-right: 20px;
+  position: relative;
+  display: inline-flex;
 }
+
+.search-box input {
+  padding-right: 70px;
+}
+
+
+.search-box button {
+  position: absolute;
+  right: 10px; 
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: none;
+  border: none;
+}
+
+.search-box button i {
+  color: #000; 
+}
+
+.search-box button:hover i {
+  color: #333;
+}
+
 
 .cart-icon {
   margin-left: 20px;
