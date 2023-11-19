@@ -34,7 +34,9 @@ body {
   margin: 0;
   padding-bottom: 10px;
 }
-
+.menu-bar ul li i{
+  margin-right: 5px;
+}
 .menu-bar ul li a {
   color: black;
   font-size: 16px;
@@ -46,6 +48,6 @@ body {
 }
 
 .container {
-  margin-top: 20px; /* Giảm khoảng cách phía dưới .navbar để .menu-bar nằm gần nhau */
-  padding-top: 10px; /* Tăng khoảng cách trên .container nếu cần thiết */
+  margin-top: 20px; 
+  padding-top: 10px; 
 }
