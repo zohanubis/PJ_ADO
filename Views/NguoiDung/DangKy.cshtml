@@ -1,0 +1,67 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DangKy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div>
+        <table class="table">
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary(true)
+                {
+                    <tr>
+                        <th colspan="2" style="align-items: center;font: 15px; ">Đăng ký</th>
+                    </tr>
+                    <tr>
+                        <td style="">Họ Tên KH</td>
+                        <td>@Html.TextBox("HoTenKH", "", new { @class = "form-control" }) @ViewData["Loi1"]</td>
+                    </tr>
+                    <tr>
+                        <td style="">Tên Đăng Nhập</td>
+                        <td>@Html.TextBox("TenDN", "", new { @class = "form-control" }) @ViewData["Loi2"]</td>
+                    </tr>
+                    <tr>
+                        <td style="">Mật Khẩu</td>
+                        <td>@Html.TextBox("MatKhau", "", new { @class = "form-control" }) @ViewData["Loi3"]</td>
+                    </tr>
+                    <tr>
+                        <td style="">Nhập Lại Mật Khẩu</td>
+                        <td>@Html.TextBox("ReMatKhau", "", new { @class = "form-control" }) @ViewData["Loi4"]</td>
+                    </tr>
+                    <tr>
+                        <td style="">Điện Thoại</td>
+                        <td>@Html.TextBox("DienThoai", "", new { @class = "form-control" }) @ViewData["Loi5"]</td>
+                    </tr>
+                    <tr>
+                        <td style="">Ngày Sinh</td>
+                        <td><input type="date" name="NgaySinh" width="400px" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td style="">Email</td>
+                        <td><input type="email" name="email" width="400px" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td style="">Địa Chỉ</td>
+                        <td><input type="text" name="DiaChi" width="400px" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Đăng Ký" class="btn btn-primary" /></td>
+                        <td colspan="2"><a href="@Url.Action("NguoiDung", "DangNhap")"><input type="submit" value="Đăng Nhập" class="btn btn-primary" /></a></td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+﻿@model IEnumerable<QuanLySach.Models.Sach>
+
+@{
+    ViewBag.Title = "TimKiem";
+    Layout = "~/Views/Layout.cshtml";
+}
+
+<h2>TimKiem</h2>
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-4">
+
+                <img src="~/Content/HinhAnhSP/@Html.DisplayFor(modelItem => item.AnhBia)" alt="" width="150px" height="200px" /><br />
+                @Html.DisplayFor(modelItem => item.TenSach)<br />
+                @Html.DisplayFor(modelItem => item.GiaBan)<br />
+                <a href="@Url.Action("XemChiTiet", "Sach", new {msp = item.MaSach})" style="color: blue">Xem chi tiết</a>
+
+            </div>
+        }
+    </div>
+</div>

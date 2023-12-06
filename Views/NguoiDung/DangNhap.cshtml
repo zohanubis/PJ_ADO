@@ -1,0 +1,34 @@
+﻿@model QuanLySach.Models.KhachHang
+@{
+    ViewBag.Title = "SachPartial";
+    Layout = "~/Views/Layout.cshtml";
+}
+
+<div class="row justify-content-md-center">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                Login
+            </div>
+            <div class="card-body">
+                @using (Html.BeginForm("DangNhapDN", "NguoiDung", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.TaiKhoan)
+                        @Html.TextBoxFor(m => m.TaiKhoan, "", new { @class = "form-control", @placeholder = "Tai Khoan" })
+
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.MatKhau)
+                        @Html.PasswordFor(m => m.MatKhau, new { @class = "form-control", @placeholder = "Password" })
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="submit" class="btn btn-primary" value="Dang Nhap" />
+                    </div>
+                    <center>@ViewBag.error</center>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -70,75 +70,11 @@ D:\chương trình C#\QuanLySach\obj\Debug\QuanLySach.csproj.CoreCompileInputs.c
 D:\chương trình C#\QuanLySach\obj\Debug\QuanLySach.csproj.CopyComplete
 D:\chương trình C#\QuanLySach\obj\Debug\QuanLySach.dll
 D:\chương trình C#\QuanLySach\obj\Debug\QuanLySach.pdb
-D:\VIsual Studio Code - Github\PJ_ADO\bin\QuanLySach.dll.config
-D:\VIsual Studio Code - Github\PJ_ADO\bin\QuanLySach.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\QuanLySach.pdb
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\csc.exe
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\csc.exe.config
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\csc.rsp
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\csi.exe
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\csi.exe.config
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\csi.rsp
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\Microsoft.Managed.Core.targets
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.AppContext.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Collections.Immutable.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Console.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Globalization.Calendars.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.IO.Compression.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.IO.FileSystem.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Net.Http.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Net.Sockets.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Reflection.Metadata.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.ValueTuple.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Xml.XmlDocument.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Xml.XPath.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\vbc.exe
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\vbc.exe.config
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\vbc.rsp
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\VBCSCompiler.exe
-D:\VIsual Studio Code - Github\PJ_ADO\bin\roslyn\VBCSCompiler.exe.config
-D:\VIsual Studio Code - Github\PJ_ADO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\Microsoft.Web.Infrastructure.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\System.Web.Helpers.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\System.Web.Mvc.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\System.Web.Razor.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\System.Web.Webpages.Deployment.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\System.Web.Webpages.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\System.Web.Webpages.Razor.dll
-D:\VIsual Studio Code - Github\PJ_ADO\bin\System.Web.Razor.xml
-D:\VIsual Studio Code - Github\PJ_ADO\bin\System.Web.Webpages.xml
-D:\VIsual Studio Code - Github\PJ_ADO\bin\System.Web.Webpages.Deployment.xml
-D:\VIsual Studio Code - Github\PJ_ADO\bin\System.Web.Webpages.Razor.xml
-D:\VIsual Studio Code - Github\PJ_ADO\bin\System.Web.Helpers.xml
-D:\VIsual Studio Code - Github\PJ_ADO\bin\System.Web.Mvc.xml
-D:\VIsual Studio Code - Github\PJ_ADO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\VIsual Studio Code - Github\PJ_ADO\obj\Debug\QuanLySach.csproj.AssemblyReference.cache
-D:\VIsual Studio Code - Github\PJ_ADO\obj\Debug\QuanLySach.csproj.CoreCompileInputs.cache
-D:\VIsual Studio Code - Github\PJ_ADO\obj\Debug\QuanLySach.csproj.CopyComplete
-D:\VIsual Studio Code - Github\PJ_ADO\obj\Debug\QuanLySach.dll
-D:\VIsual Studio Code - Github\PJ_ADO\obj\Debug\QuanLySach.pdb
+D:\chương trình C#\QuanLySach\bin\Newtonsoft.Json.dll
+D:\chương trình C#\QuanLySach\bin\System.Net.Http.Formatting.dll
+D:\chương trình C#\QuanLySach\bin\System.Web.Http.dll
+D:\chương trình C#\QuanLySach\bin\System.Web.Http.WebHost.dll
+D:\chương trình C#\QuanLySach\bin\Newtonsoft.Json.xml
+D:\chương trình C#\QuanLySach\bin\System.Net.Http.Formatting.xml
+D:\chương trình C#\QuanLySach\bin\System.Web.Http.xml
+D:\chương trình C#\QuanLySach\bin\System.Web.Http.WebHost.xml

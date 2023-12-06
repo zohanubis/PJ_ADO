@@ -1,0 +1,37 @@
+﻿@model IEnumerable<QuanLySach.Models.Sach>
+
+@{
+    ViewBag.Title = "SachPartial";
+    Layout = "~/Views/Layout.cshtml";
+}
+
+
+
+<div class="row">
+    @{ foreach (var item in Model)
+        {
+            <div class="col-4">
+                <img src="~/Content/HinhAnhSP/@item.AnhBia" />
+
+                @if (item.TenSach.Length > 30)
+                {
+                    <p>
+                        <strong title="=" @item.TenSach> @item.TenSach.Substring(0, 30) </strong> <br />
+                        @item.GiaBan<br />
+                        <a href="@Url.Action("XemChiTiet", "Sach", new {@ms = item.MaSach})">Xem Chi Tiết</a>
+
+                    </p>
+
+                }
+                else
+                {
+                    <strong title="=" @item.TenSach>@item.TenSach </strong> <br />
+                    @item.GiaBan<br />
+                    <center> <a href="@Url.Action("XemChiTiet", "Sach", new {@ms = item.MaSach})">Xem Chi Tiết</a></center>
+                }
+            </div>
+        }
+       
+    }
+
+</div>
